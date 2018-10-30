@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>Template Flask</head>
+<body>
+Hello Template 
+{{ name }} </br>
+{{ lista }} </br>
+{{ tuplea }} </br>
+{{ dicta }} </br>
+{{ lista.index(3) }} </br>
+{{ lista[2] }}
+<table border = 1>
+{% for key,value in result.items() %}
+<tr>
+	<th>{{ key }}</th>
+	<td>{{ value }}</td>
+</tr>
+{% endfor %}
+</table>
+
+</body>
+</html>
